@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>BOOK CATALOGUE</h1>
+        </div>
+    </header>
+    <main>
+        <form>
+            <div class="addInfo-container">
+                <div class="info">
+                    <h2>Book Title</h2>
+                    <input type="text" name="title" id = "title">
+                </div>
+                <div class="info"> 
+                    <h2>Author</h2>
+                    <input type="text" name="author" id = "author">
+                </div>
+                <div class="info">
+                    <h2>Genre</h2>
+                    <select name="genre" id="genre">
+                        <!-- <optgroup> -->
+                            <option value="Sci-Fi" id="genre">Sci-Fi</option>
+                            <option value="Thriller">Thriller</option>
+                            <option value="Self Help">Self Help</option>
+                            <option value="Biography">Biography</option>
+                        <!-- </optgroup> -->
+                    </select>
+                </div>
+                <div class="info">
+                    <h2>Date Purchased</h2>
+                    <input type="date" id ="purchased" name="purchased">
+                </div>
+                <div class="info">
+                    <h2>ISBN</h2>
+                    <input type="number" id="isbn" name="isbn">
+                </div>
+                <div class="info">
+                    <input type="button" id="myButton" name="submit">
+                </div>
+            </div>
+        </form>
+        <div class="booklist-container">
+            <table class="booklist">
+                <tbody>
+                </tbody>
+            </table>
+
+            <!-- <th>
+                <td>Title</td>
+                <td>Author</td>
+                <td>Genre</td>
+                <td>Purchased</td>
+                <td>ISBN</td>
+            </th> -->
+        </div>
+    </main>
+</body>
+<script src="main.js"></script>
+</html>

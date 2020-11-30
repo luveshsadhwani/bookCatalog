@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+html {
+    background-color: maroon;
+}
+
+.title {
+    background-color: rgb(66, 18, 18);
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,h2,td {
+    color: whitesmoke;
+    font-family: 'Gentium Book Basic', serif;
+    letter-spacing: 0.2em;
+}
+
+h1 {
+    letter-spacing: 0.5em;
+}
+
+
+.addInfo-container {
+    height: 10vh;
+    width: 80%;
+    margin: 3vh auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.booklist-container {
+    width: 70%;
+    height: 50vh;
+    margin: 0 auto 0 125px;
+}
+
+.info {
+    flex: 1;
+    padding: 0rem
+}
+
+h2 {
+    padding-bottom: 1.5vh;
+    font-size: 14px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 10px;
+}
+
+input, #genre, #purchased {
+    max-width: 90px;
+    border: none;
+    border-radius: 6%;
+    text-align: center;
+    height: 3.5vh
+}
+
+#myButton {
+    background: url('/resources/images/book.png') no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+td {
+    border: solid 1px whitesmoke;
+    width: 125px;
+    text-align: center;
+    padding: 0.5vh;
+    font-size: 15px; 
+}
+
+
+
+    
