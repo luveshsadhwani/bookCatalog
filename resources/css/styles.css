@@ -49,7 +49,7 @@ h1 {
 
 h2 {
     padding-bottom: 1.5vh;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 input::-webkit-outer-spin-button,
@@ -60,11 +60,11 @@ input::-webkit-inner-spin-button {
 
 input,
 input::-webkit-input-placeholder {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 input, #genre, #purchased {
-    max-width: 90px;
+    max-width: 110px;
     border: none;
     border-radius: 6%;
     text-align: center;
@@ -88,6 +88,10 @@ td {
     font-size: 15px; 
 }
 
+table {
+    width: 100%;
+    margin-left: 80px;
+}
 
 
     
