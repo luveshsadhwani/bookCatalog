@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -45,22 +45,31 @@
                     <input type="number" id="isbn" name="isbn">
                 </div>
                 <div class="info">
-                    <input type="button" id="myButton" name="submit">
+                    <input type="submit" id="myButton" name="submit" value="">
                 </div>
             </div>
         </form>
         <div class="booklist-container">
             <table class="booklist">
                 <tbody>
+                    <thead>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Purchased</th>
+                        <th>ISBN</th>
+                        <th id=del><i class="fas fa-trash-alt"></i></th>
+                    </thead>
                     <!-- <tr>
                         <td>Title</td>
                         <td>Author</td>
                         <td>Genre</td>
                         <td>Purchased</td>
                         <td>ISBN</td>
+                        <td id=del><i class="fas fa-trash-alt"></i></td>
                     </tr> -->
                 </tbody>
-            </table>                
+            </table>            
         </div>
     </main>
 </body>
