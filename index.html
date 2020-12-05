@@ -41,8 +41,12 @@
                     <input type="date" id ="purchased" name="purchased">
                 </div>
                 <div class="info">
-                    <h2>ISBN</h2>
-                    <input type="number" id="isbn" name="isbn">
+                    <h2>Status</h2>
+                    <select name="status" id="status">
+                            <option value="To Read">To Read</option>
+                            <option value="Reading">Reading</option>
+                            <option value="Read">Read</option>
+                    </select>
                 </div>
                 <div class="info">
                     <input type="submit" id="myButton" name="submit" value="">
@@ -57,8 +61,8 @@
                         <th>Author</th>
                         <th>Genre</th>
                         <th>Purchased</th>
-                        <th>ISBN</th>
-                        <th id=del><i class="fas fa-trash-alt"></i></th>
+                        <th>Status</th>
+                        <th id="delheader"><i class="fas fa-trash-alt"></i></th>
                     </thead>
                     <!-- <tr>
                         <td>Title</td>
